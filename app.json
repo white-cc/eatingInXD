@@ -1,26 +1,27 @@
 {
-  "pages":[
-    "pages/index/index"
+  "pages": [
+    "pages/index/index",
+    "pages/taochi/taochi"
   ],
-  "window":{
-    "backgroundTextStyle":"light",
+  "window": {
+    "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
     "navigationBarTitleText": "Weixin",
-    "navigationBarTextStyle":"black"
+    "navigationBarTextStyle": "black"
   },
   "tabBar": {
     "list": [
       {
         "pagePath": "pages/index/index",
-        //"iconPath": "pages/images/tar11.png",
-        //"selectedIconPath": "pages/images/tar1.png",
+        "iconPath": "pages/images/bar1.png",
+        "selectedIconPath": "pages/images/bar12.jpg",
         "text": "首页"
       },
       {
-        "pagePath": "pages/index/index",
-        //"iconPath": "pages/images/tar2.png",
-        //"selectedIconPath": "pages/images/tar22.png",
-        "text": "微淘"
+        "pagePath": "pages/taochi/taochi",
+        "iconPath": "pages/images/bar1.png",
+        "selectedIconPath": "pages/images/bar22.jpg",
+        "text": "淘吃"
       }
     ]
   },
